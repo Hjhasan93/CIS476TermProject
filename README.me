@@ -1,0 +1,55 @@
+# DriveShare – Peer-to-Peer Car Rental Platform
+
+##  Overview
+DriveShare is a standalone car rental platform that connects car owners with renters.
+Users can register, list vehicles, search for available cars, book rentals, process payments, and receive notifications.
+
+This project was developed for **CIS 476 – Software Architecture and Design Patterns**.
+
+---
+
+##  Technologies Used
+- Java
+- JavaFX
+- SQLite
+- Maven
+
+---
+
+##  Features
+- User Registration and Authentication
+- Password Recovery (Security Questions)
+- Car Listing Management
+- Car Search and Booking
+- Payment Processing
+- Watchlist and Notification System
+
+---
+
+##  Design Patterns Implemented
+- **Singleton** → SessionManager (user session control)
+- **Observer** → Watchlist notifications
+- **Mediator** → UI component communication
+- **Builder** → Car object construction
+- **Proxy** → Payment processing validation
+- **Chain of Responsibility** → Password recovery
+
+---
+
+##  Database Schema
+The system uses SQLite with the following tables:
+
+- users
+- security_questions
+- cars
+- bookings
+- watchlist
+- payments
+
+---
+
+##  How to Run the Project
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Hjhasan93/CIS476TermProject.git
